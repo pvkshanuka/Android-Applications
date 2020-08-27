@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="3dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_below="@+id/linearLayout1"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="-30dp"
+                        android:rotation="45"
+                        android:src="@drawable/square"
+                        app:layout_constraintBottom_toBottomOf="@+id/constraintLayout"
+                        app:layout_constraintEnd_toEndOf="@+id/constraintLayout"
+                        app:layout_constraintStart_toStartOf="@+id/constraintLayout"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+                    <android.support.constraint.ConstraintLayout
+                        android:id="@+id/constraintLayout"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimary"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/transparent_bg"
+                            android:fontFamily="@font/open_sans_extra_bold"
+                            android:text="@string/txt_wooker"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="25sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@drawable/circle"
+                            android:padding="10dp"
+                            android:src="@drawable/ic_sign_up"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/open_sans_extra_bold"
+                            android:text="@string/txt_worker_sign_up"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+                    </android.support.constraint.ConstraintLayout>
+
+
+                    <android.support.constraint.ConstraintLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginRight="30dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+                        <ImageView
+                            android:id="@+id/imageView_userIcon"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:background="@color/pt_icon_bg"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_name"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <EditText
+                            android:id="@+id/et_fname_w"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_marginEnd="8dp"
+                            android:background="@color/editTextBG"
+                            android:fontFamily="@font/open_sans_semibold"
+                            android:hint="@string/txt_first_name"
+                            android:paddingLeft="10dp"
+                            android:textColor="@color/textColor"
+                            android:textSize="15sp"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView_userIcon"
+                            app:layout_constraintEnd_toStartOf="@+id/et_lname_w"
+                            app:layout_constraintHorizontal_bias="0.5"
+                            app:layout_constraintStart_toEndOf="@+id/imageView_userIcon"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <EditText
+                            android:id="@+id/et_lname_w"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:background="@color/editTextBG"
+                            android:fontFamily="@font/open_sans_semibold"
+                            android:hint="@string/txt_last_name"
+                            android:paddingLeft="10dp"
+                            android:textColor="@color/textColor"
+                            android:textSize="15sp"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView_userIcon"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.5"
+                            app:layout_constraintStart_toEndOf="@+id/et_fname_w"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/imageView_passwordIcon"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="15dp"
+                            android:background="@color/pt_icon_bg"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_email"
+                            android:visibility="gone"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView_userIcon" />
+
+                        <EditText
+                            android:id="@+id/pt_email"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:background="@color/editTextBG"
+                            android:fontFamily="@font/open_sans_semibold"
+                            android:hint="@string/txt_emailad"
+                            android:paddingLeft="10dp"
+                            android:textColor="@color/textColor"
+                            android:textSize="15sp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView_passwordIcon"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/imageView_passwordIcon"
+                            app:layout_constraintTop_toTopOf="@+id/imageView_passwordIcon" />
+
+                        <ImageView
+                            android:id="@+id/imageView_passwordIcon2"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="15dp"
+                            android:background="@color/pt_icon_bg"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_password"
+                            android:visibility="gone"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView_passwordIcon" />
+
+                        <EditText
+                            android:id="@+id/pt_pword"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:background="@color/editTextBG"
+                            android:fontFamily="@font/open_sans_semibold"
+                            android:hint="@string/txt_password"
+                            android:inputType="textPassword"
+                            android:paddingLeft="10dp"
+                            android:textColor="@color/textColor"
+                            android:textSize="15sp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView_passwordIcon2"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toEndOf="@+id/imageView_passwordIcon2"
+                            app:layout_constraintTop_toTopOf="@+id/imageView_passwordIcon2"
+                            app:layout_constraintVertical_bias="1.0" />
+
+
+                        <ImageView
+                            android:id="@+id/imageView_conIcon"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="15dp"
+                            android:background="@color/pt_icon_bg"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_contact"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView_userIcon" />
+
+                        <EditText
+                            android:id="@+id/et_cno_w"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:background="@color/editTextBG"
+                            android:fontFamily="@font/open_sans_semibold"
+                            android:hint="@string/txt_contact_number"
+                            android:inputType="number"
+                            android:paddingLeft="10dp"
+                            android:textColor="@color/textColor"
+                            android:textSize="15sp"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView_conIcon"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/imageView_conIcon"
+                            app:layout_constraintTop_toTopOf="@+id/imageView_conIcon" />
+
+                        <ImageView
+                            android:id="@+id/imageView_langIcon4"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="15dp"
+                            android:background="@color/editTextBG"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_select_w_type"
+                            android:visibility="visible"
+                            app:layout_constraintEnd_toStartOf="@+id/spinner_cats2"
+                            app:layout_constraintHorizontal_bias="0.5"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+                        <Spinner
+                            android:id="@+id/spinner_cats2"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_marginEnd="10dp"
+                            android:background="@drawable/spanner_bg"
+                            android:fontFamily="@font/open_sans_semibold"
+                            android:textSize="13sp"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView_langIcon4"
+                            app:layout_constraintEnd_toStartOf="@+id/imageView_locaIcon"
+                            app:layout_constraintHorizontal_bias="0.5"
+                            app:layout_constraintStart_toEndOf="@+id/imageView_langIcon4"
+                            app:layout_constraintTop_toTopOf="@+id/imageView_langIcon4" />
+
+                        <ImageView
+                            android:id="@+id/imageView_locaIcon"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:background="@color/pt_icon_bg"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_location"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView_langIcon4"
+                            app:layout_constraintEnd_toStartOf="@+id/btn_addlocation"
+                            app:layout_constraintHorizontal_bias="0.5"
+                            app:layout_constraintStart_toEndOf="@+id/spinner_cats2"
+                            app:layout_constraintTop_toTopOf="@+id/imageView_langIcon4"
+                            app:layout_constraintVertical_bias="0.0" />
+
+                        <Button
+                            android:id="@+id/btn_addlocation"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:background="@color/editTextBG"
+                            android:fontFamily="@font/open_sans_semibold"
+                            android:text="@string/txt_add_location"
+                            android:textAllCaps="false"
+                            android:textColor="@color/textColor"
+                            android:textSize="13sp"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView_locaIcon"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.5"
+                            app:layout_constraintStart_toEndOf="@+id/imageView_locaIcon"
+                            app:layout_constraintTop_toTopOf="@+id/imageView_locaIcon" />
+
+                        <Button
+                            android:id="@+id/btn_signup_w"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@color/colorPrimary"
+                            android:fontFamily="@font/open_sans_semibold"
+                            android:text="@string/txt_sign_up"
+                            android:textColor="@color/white"
+                            android:textSize="17sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/btn_addlocation" />
+
+                        <TextView
+                            android:id="@+id/textView32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="@font/open_sans_semibold"
+                            android:text="@string/txt_gender"
+                            android:textSize="17sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView_conIcon" />
+
+                        <RadioGroup
+                            android:id="@+id/radioGroup"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/textView32"
+                            app:layout_constraintTop_toTopOf="@+id/textView32">
+
+                            <RadioButton
+                                android:id="@+id/ra_male"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/open_sans_semibold"
+                                android:text="@string/txt_male" />
+
+                            <RadioButton
+                                android:id="@+id/ra_female"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/open_sans_semibold"
+                                android:text="@string/txt_female" />
+                        </RadioGroup>
+
+                    </android.support.constraint.ConstraintLayout>
+
+                </android.support.constraint.ConstraintLayout>
+            </android.support.v7.widget.CardView>
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

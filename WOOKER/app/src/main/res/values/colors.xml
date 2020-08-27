@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--EAE460-->
+    <!--6e6e6e-->
+    <!--<color name="colorPrimary">#E5B009</color>-->
+    <color name="colorPrimary">#ECC60C</color>
+    <color name="colorPrimaryDark">#161616</color>
+    <color name="colorAccent">#FF3D00</color>
+    <color name="facebookBlue">#3F5996</color>
+    <color name="googleRed">#D03E2F</color>
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="pt_icon_bg">#90ECC60C</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_bg">#4B000000</color>
+    <color name="editTextBG">#DADADA</color>
+
+    <color name="textColor">#161616</color>
+    <color name="color_green">#0EDA00</color>
+    <color name="color_lblue">#00D3DA</color>
+    <color name="color_yellowgreen">#5AC400</color>
+
+    <color name="color_dark_gray">#3C3C3C</color>
+    <color name="color_light_gray">#AAAAAA</color>
+    <color name="color_goldern_yellow">#FFD500</color>
+    <color name="warning_red">#DF0000</color>
+
+    <color name="hint">#6e6e6e</color>
+
+    <color name="color1">#FF0000</color>
+    <color name="color2">#FFB700</color>
+    <color name="color3">#BBFF00</color>
+    <color name="color4">#2F00FF</color>
+    <color name="color5">#F700FF</color>
+    <color name="color6">#00A6FF</color>
+    <color name="color7">#A600FF</color>
+    <color name="color8">#00FFAE</color>
+    <color name="color9">#FFF200</color>
+    <color name="color10">#FF008C</color>
+    <color name="color11">#00FFEA</color>
+    <color name="color12">#FF7700</color>
+
+</resources>
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<resources>-->
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#5E5E5E</color>-->
+    <!--<color name="colorAccent">#616161</color>-->
+
+    <!--&lt;!&ndash; 1st Gradient color &ndash;&gt;-->
+    <!--<color name="colorPurple_A400">#D9FFB700</color>-->
+    <!--<color name="colorPurple_900">#D9DF2D00</color>-->
+    <!--<color name="colorPurple_A4002">#B68B1E</color>-->
+    <!--<color name="colorPurple_9002">#AD3312</color>-->
+    <!--&lt;!&ndash; ./ 1st Gradient color &ndash;&gt;-->
+    <!--<color name="col_yellow">#ffd400</color>-->
+    <!--<color name="col_btn_bg">#FFFFFF</color>-->
+    <!--<color name="col_btn2_bg">#4F000000</color>-->
+    <!--<color name="col_btn2_bg2">#25000000</color>-->
+    <!--<color name="col_btn_bg2">#C1FFFFFF</color>-->
+    <!--<color name="col_et_border">#C1FFD500</color>-->
+    <!--<color name="col_et_hint">#B2222222</color>-->
+    <!--<color name="col_et_text">#F0F0F0</color>-->
+    <!--<color name="col_bt_txt">#00F0F0F0</color>-->
+    <!--<color name="col_sp_bg">#976714</color>-->
+
+
+
+    <!--<color name="login_form_details">#ccffffff</color>-->
+    <!--<color name="login_form_details_light">#28000000</color>-->
+    <!--<color name="login_form_details_medium">#66ffffff</color>-->
+
+
+<!--</resources>-->
