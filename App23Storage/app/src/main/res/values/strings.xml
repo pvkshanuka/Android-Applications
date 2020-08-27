@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">App23Storage</string>
+    <string name="txt_cnewfilein">Create New File (Internal)</string>
+    <string name="txt_cnewfileex">Create New File (External)</string>
+    <string name="txt_dwnimg">Download Image</string>
+    <string name="txt_nomedia">No Media</string>
+    <string name="txt_cexprfi">Create External Private File</string>
+</resources>

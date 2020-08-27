@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">App22RuntimePermition</string>
+    <string name="txtmakecall">Make Call</string>
+    <string name="txtusecam">Use Camera</string>
+</resources>

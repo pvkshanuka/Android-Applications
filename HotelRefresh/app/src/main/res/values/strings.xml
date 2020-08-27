@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Hotel Refresh</string>
+    <string name="name">Customer Name</string>
+    <string name="card_name">Card Name</string>
+    <string name="hours">Hours</string>
+    <string name="price">Price</string>
+    <string name="offer">Offer</string>
+    <string name="add_package">Add Package</string>
+    <string name="select_package">Select Package</string>
+    <string name="select_time">Select Time</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_payment_method">Select Payment Method</string>
+    <string name="reserve">Reserve</string>
+    <string name="edit_package">Edit Package</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="hotel_refresh_home">Hotel Refresh Home</string>
+    <string name="customer_home">Customer Home</string>
+    <string name="admin_home">Admin Home</string>
+
+</resources>

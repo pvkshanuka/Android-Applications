@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Application8 User Registration</string>
+    <string name="tv_header">User Registration</string>
+    <string name="tv_id">ID</string>
+    <string name="tv_name">Name</string>
+    <string name="tv_mobile">Mobile</string>
+    <string name="tv_pword">Password</string>
+    <string name="btn_signup">Sign Up</string>
+    <string name="btn_view">View Users</string>
+    <string name="btn_load">Load Users</string>
+</resources>

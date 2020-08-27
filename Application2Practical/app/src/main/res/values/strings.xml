@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Application2Practical</string>
+    <string name="lbl_sign_up">Sign Up</string>
+    <string name="lbl_sign_in">Sign In</string>
+    <string name="txt_uname">Username</string>
+    <string name="txt_pword">Password</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_mobile">Mobile</string>
+    <string name="txt_male">Male</string>
+    <string name="txt_female">Female</string>
+    <string name="txt_selgen">Gender</string>
+</resources>

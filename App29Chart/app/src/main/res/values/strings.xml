@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">App29Chart</string>
+    <string name="txtbar_chart">Bar Chart</string>
+    <string name="txtline_chart">Line Chart</string>
+    <string name="txtpie_chart">Pie Chart</string>
+    <string name="txt_txt">Sets the colors that should be used fore this DataSet. Colors are reused as soon as the number of Entries the DataSet represents is higher than the size of the colors array. Make sure that the colors are already prepared</string>
+</resources>

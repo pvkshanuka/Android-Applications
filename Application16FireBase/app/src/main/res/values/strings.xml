@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Application16FireBase</string>
+    <string name="btn_FireBase">FireBase Data Insert</string>
+    <string name="btn_FireBaseU">FireBase Data Update</string>
+    <string name="lbl_signup">Sign Up</string>
+    <string name="lbl_id">Id</string>
+    <string name="lbl_name">Name</string>
+    <string name="lbl_mobile">Mobile</string>
+    <string name="lbl_pword">Password</string>
+    <string name="btn_adddata">Add Data</string>
+    <string name="btn_cp">Change Piority</string>
+    <string name="btn_adddata2">Add Data2</string>
+    <string name="btn_addu">Add User</string>
+    <string name="btn_addchemail">Add Child Email</string>
+    <string name="btn_changechname">Change Child Name</string>
+    <string name="btn_remchemail">Remove Child Email</string>
+    <string name="btn_movechpw">Move Child Password</string>
+    <string name="btn_addchlis">Add Child Listener</string>
+    <string name="lbl_uname">Username</string>
+    <string name="lbl_signin">Sign In</string>
+</resources>

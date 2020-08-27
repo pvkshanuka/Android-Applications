@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:cardBackgroundColor="@android:color/white">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingStart="10dp"
+            android:paddingTop="30dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="30dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/lobster"
+                android:text="@string/userlogin"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/login_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:drawableEnd="@drawable/ic_person_black_24dp"
+                android:drawableTint="@color/gray"
+                android:ems="10"
+                android:fontFamily="@font/vigo"
+                android:hint="@string/username"
+                android:inputType="textEmailAddress"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="exampleemail1@gmail.com"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/login_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:drawableEnd="@drawable/ic_lock_black_24dp"
+                android:drawableTint="@color/gray"
+                android:ems="10"
+                android:fontFamily="@font/vigo"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="11223344"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/acceptbtn"
+                android:fontFamily="@font/vigo"
+                android:onClick="logIn"
+                android:text="@string/login"
+                android:textColor="@color/cardview_light_background" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

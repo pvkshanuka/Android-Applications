@@ -8,35 +8,35 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:270064924177:android:0c520ee582b08628",
+        "mobilesdk_app_id": "",
         "android_client_info": {
           "package_name": "com.app.wooker"
         }
       },
       "oauth_client": [
         {
-          "client_id": "270064924177-gi4gvonov7soonc6137ftq5i4mqiqt4i.apps.googleusercontent.com",
+          "client_id": "",
           "client_type": 1,
           "android_info": {
             "package_name": "com.app.wooker",
-            "certificate_hash": "66642cdf4a7835ec5f84e83a13c651138b63e946"
+            "certificate_hash": ""
           }
         },
         {
-          "client_id": "270064924177-1tip3vvv72uhftivi1pm7ui28529mgfc.apps.googleusercontent.com",
+          "client_id": "",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBJGGF36IxJT9QpGJnkGeTZLvQrXOAf0cA"
+          "current_key": ""
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "270064924177-1tip3vvv72uhftivi1pm7ui28529mgfc.apps.googleusercontent.com",
+              "client_id": "",
               "client_type": 3
             }
           ]

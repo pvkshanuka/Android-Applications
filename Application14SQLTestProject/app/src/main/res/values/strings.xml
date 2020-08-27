@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Application14 SQL Test Project</string>
+    <string name="lbl_usreg">User Registrationn</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_mobile">Mobile No</string>
+    <string name="txt_pword">Password</string>
+    <string name="btn_insert">Insert</string>
+    <string name="btn_search">Search</string>
+</resources>

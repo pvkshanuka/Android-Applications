@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="18dp"
+            android:paddingTop="20dp"
+            android:paddingEnd="18dp"
+            android:paddingBottom="20dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@android:color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/vigo"
+                        android:text="@string/orderid"
+                        android:textColor="@color/gray" />
+
+                    <TextView
+                        android:id="@+id/dialog_orderid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="20dp"
+                        android:fontFamily="@font/vigo"
+                        android:paddingStart="20dp"
+                        android:text="TextView"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/vigo"
+                        android:text="@string/daddress"
+                        android:textColor="@color/gray" />
+
+                    <TextView
+                        android:id="@+id/dialog_daddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="20dp"
+                        android:fontFamily="@font/vigo"
+                        android:paddingStart="20dp"
+                        android:text="TextView"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/vigo"
+                        android:text="@string/pickupdate"
+                        android:textColor="@color/gray" />
+
+                    <TextView
+                        android:id="@+id/dialog_pdate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="20dp"
+                        android:fontFamily="@font/vigo"
+                        android:paddingStart="20dp"
+                        android:text="TextView"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/vigo"
+                        android:text="@string/paddress"
+                        android:textColor="@color/gray" />
+
+                    <TextView
+                        android:id="@+id/dialog_paddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="20dp"
+                        android:fontFamily="@font/vigo"
+                        android:paddingStart="20dp"
+                        android:text="TextView"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@android:color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/dialog_progresstext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="10dp"
+                        android:fontFamily="@font/vigo"
+                        android:text="TextView"
+                        android:textColor="@color/red" />
+
+                    <ProgressBar
+                        android:id="@+id/dialog_progressBar"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:max="10"
+                        android:progress="0"
+                        android:progressTint="@color/red" />
+
+                    <Button
+                        android:id="@+id/dialog_cancel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cancelbtn"
+                        android:text="@android:string/cancel"
+                        android:textColor="@color/cardview_light_background" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="25dp"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/dialog_accept"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/acceptbtn"
+                            android:fontFamily="@font/vigo"
+                            android:text="@string/accept"
+                            android:textColor="@color/cardview_light_background" />
+
+                        <Button
+                            android:id="@+id/dialog_decline"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/declinebtn"
+                            android:fontFamily="@font/vigo"
+                            android:text="@string/decline"
+                            android:textColor="@color/cardview_light_background" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

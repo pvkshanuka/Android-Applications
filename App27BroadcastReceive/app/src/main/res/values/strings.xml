@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">App27BroadcastReceive</string>
+    <string name="txt_BR">Broadcast Receive</string>
+</resources>

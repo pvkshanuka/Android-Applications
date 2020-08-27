@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">App33Senseors</string>
+    <string name="txtview_all_sensors">View All Sensors</string>
+    <string name="txtcheck_sensor">Check Sensor</string>
+    <string name="txtadd_listener">Add Listener</string>
+    <string name="txtset_sensor_2">Set Sensor 2</string>
+    <string name="txtset_sensor_3">Set Sensor 3</string>
+</resources>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">My Account</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Contact Number</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="enter_fname">Enter First Name</string>
+    <string name="enter_lname">Enter Last Name</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="clear">Clear</string>
+    <string name="user_account">User Account</string>
+    <string name="title">Title</string>
+    <string name="add_customer">Add Customer</string>
+    <string name="update_customer">Update Customer</string>
+    <string name="enter_customer_id">Enter Customer ID</string>
+    <string name="load">Load</string>
+
+</resources>

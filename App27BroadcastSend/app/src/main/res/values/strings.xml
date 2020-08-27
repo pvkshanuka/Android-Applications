@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">App27BroadcastSend</string>
+    <string name="txt_BS">Broadcast Send</string>
+    <string name="txt_SBm">Send Broadcast Message</string>
+</resources>

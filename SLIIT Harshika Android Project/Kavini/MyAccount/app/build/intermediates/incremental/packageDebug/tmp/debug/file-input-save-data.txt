@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Fri Sep 13 23:48:54 IST 2019
+0.baseType=DIRECTORY
+0.base=D\:\\AndroidStudioProjects\\SLIIT Harshika Android Project\\Kavini\\MyAccount\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+0.path=classes.dex
+0.set=DEX
+count=1

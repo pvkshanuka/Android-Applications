@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity">
+
+    <TextView
+        android:id="@+id/txt_vheight"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/img_view_venue"
+        android:layout_width="392dp"
+        android:layout_height="194dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/g" />
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="109dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="196dp"
+        android:text="functions"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.245"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_view_venue" />
+
+    <TextView
+
+
+        android:id="@+id/txt_vname"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Grand Ballroom"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/txt_vdetails"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="Upholding its reputation to the name,the grandest venues at NAME is located on the 3rd floor, with a panomaric view of the lake and beyond.the unique column free feature ensures the largest seating capacity for aminimum of 350 guests."
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_vname" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="2dp"
+        android:text="max occupancy "
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toStartOf="@+id/txt_vocc"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_vdetails" />
+
+    <TextView
+        android:id="@+id/txt_vocc"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/txt_varea"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="@+id/textView4" />
+
+    <TextView
+
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="venue area"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="height"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:text="Best Location in Colombo For Your event"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+    <TextView
+
+        android:id="@+id/txt_vdetails2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="The ballroom is the ideal venue to host large weddings, coparate events such as seminars,conventions.Your personal coordinator together with the award winning culinary team will address your individual requirements to make sure you and your guest satisfied."
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/btn_inqu"
+        android:layout_width="145dp"
+        android:layout_height="40dp"
+        android:background="#FF9800"
+        android:text="INQUIRE NOW"
+        android:textColor="#ffff"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_vdetails2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

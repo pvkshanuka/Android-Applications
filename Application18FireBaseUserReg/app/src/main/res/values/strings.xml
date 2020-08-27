@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Application18FireBaseUserReg</string>
+    <string name="lbl_signup">Sign Up</string>
+    <string name="lbl_userimg">User Image</string>
+    <string name="lbl_name">Name</string>
+    <string name="lbl_uname">Username</string>
+    <string name="lbl_mobileno">Mobile No</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_pword">Password</string>
+    <string name="lbl_gender">Gender</string>
+    <string name="lbl_male">Male</string>
+    <string name="lbl_female">Female</string>
+    <string name="lbl_choose">Choose</string>
+    <string name="lbl_viewusers">View Users</string>
+</resources>

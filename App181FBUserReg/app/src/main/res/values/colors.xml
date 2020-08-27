@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="picBack">#dcdde1</color>
+    <color name="lable">#dfe6e9</color>
+    <color name="btn_blue">#0097e6</color>
+    <color name="lbl_blue">#0097e6</color>
+    <color name="btn_green">#44bd32</color>
+</resources>

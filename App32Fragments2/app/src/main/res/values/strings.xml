@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">App32Fragments2</string>
+    <string name="txtactivity">Activity!</string>
+    <string name="txtset">Set</string>
+    <string name="txtadd">Add</string>
+    <string name="txtdefault">Default</string>
+    <string name="txtfragment1">Fragment1</string>
+    <string name="txtfragment2">Fragment2</string>
+</resources>
